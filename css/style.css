@@ -5,6 +5,8 @@ body {
   margin: 0;
   padding: 0;
   
+
+
 }
     
 a {
@@ -278,11 +280,11 @@ body {
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
-    color: white; 
+     
     }
 #hero {
     background: url(/images/Food\ Insecurity\ Task\ Force\ Logo\ PNG\ Vector\ \(SVG\)\ Free\ Download.jpeg) no-repeat center center/cover;
     padding: 120px 20px;
     text-align: center;
-    color: white;
+    color:hsl(0, 0%, 0%);
 }
