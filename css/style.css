@@ -256,3 +256,9 @@ nav ul li a:hover {
     background: #ffc107; 
     color: #003f80; 
 }
+a {
+    margin-right: 15px; 
+    padding: 5px 10px;  
+    display: inline-block; 
+}
+
