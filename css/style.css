@@ -107,23 +107,6 @@ nav ul li a:hover {
 }
 
 
-#hero {
-    background: url('food-background.jpg') no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 120px 20px;
-}
-
-#hero h2 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-#hero p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
 
 
 
