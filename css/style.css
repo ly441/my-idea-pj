@@ -306,6 +306,7 @@ body::before {
     color: #ffcc00;
     text-decoration: none;
     font-weight: bold;
+    
 }
 
 #contact-form a:hover {
@@ -402,4 +403,83 @@ footer {
 }
 
 
+
+#about {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+#about h1 {
+    font-size: 32px;
+    color: #ffcc00;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#about h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ffcc00;
+}
+
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: black;
+}
+
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+}
+
+#about ul li {
+    font-size: 18px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+#about a {
+    color:lightgreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#about a:hover {
+    color: #e0a800;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    #about {
+        width: 90%;
+        padding: 20px;
+    }
+
+    #about h1 {
+        font-size: 28px;
+    }
+
+    #about h2 {
+        font-size: 22px;
+    }
+
+    #about p {
+        font-size: 16px;
+    }
+}
 
