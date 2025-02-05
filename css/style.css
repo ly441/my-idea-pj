@@ -108,12 +108,12 @@ nav ul li a:hover {
 #services {
   text-align: center;
   padding: 60px 20px;
-  background: white;
+  background: lightblue;
 }
 
 #services h2 {
   font-size: 2rem;
-  color: #0056b3;
+  color:darkblue;
   margin-bottom: 20px;
 }
 
@@ -125,7 +125,7 @@ nav ul li a:hover {
 }
 
 .service-box {
-  background: #f8f9fa;
+  background: orange;
   padding: 20px;
   border-radius: 10px;
   width: 300px;
@@ -145,12 +145,12 @@ nav ul li a:hover {
 #testimonials {
   text-align: center;
   padding: 60px 20px;
-  background: #e9ecef;
+  background:darkblue;
 }
 
 #testimonials h2 {
   font-size: 2rem;
-  color: #0056b3;
+  color:whitesmoke
 }
 
 #testimonials p {
@@ -280,15 +280,92 @@ body {
     background: url(/images/Food\ Insecurity\ Task\ Force\ Logo\ PNG\ Vector\ \(SVG\)\ Free\ Download.jpeg) no-repeat center center fixed;
     background-size: cover; 
     background-attachment: fixed; 
-    background-position: center;
-    background-repeat: no-repeat;
-     position: relative;
-     
-
-    
-    
-    
+    background-position: center top; 
+    color: white; 
+    position: relative;
 }
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+
+
+header, main, footer {
+    position: relative;
+    z-index: 1; 
+    text-align: center;
+    padding: 50px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background-position: center center; 
+    }
+}
+.about-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #ffcc00; 
+}
+
+
+.about-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.about-container .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #fff;
+    background: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.about-container .btn:hover {
+    background: #e0a800;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .about-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .about-container h1 {
+        font-size: 28px;
+    }
+
+    .about-container p {
+        font-size: 16px;
+    }
+}
+
 
      
     
