@@ -109,6 +109,7 @@ nav ul li a:hover {
   text-align: center;
   padding: 60px 20px;
   background: lightblue;
+  
 }
 
 #services h2 {
@@ -131,6 +132,8 @@ nav ul li a:hover {
   width: 300px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease-in-out;
+  display:inline-flex;
+  margin:0px
 }
 
 .service-box:hover {
@@ -289,7 +292,7 @@ body::before {
 #contact-form h3 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #ffcc00; 
+    color: whitesmoke; 
     text-transform: uppercase;
 }
 #contact-form p {
@@ -303,7 +306,7 @@ body::before {
 
 
 #contact-form a {
-    color: #ffcc00;
+    color:whitesmoke;
     text-decoration: none;
     font-weight: bold;
     
